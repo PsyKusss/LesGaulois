@@ -37,17 +37,12 @@ public class Gaulois {
 	public String toString() {
 		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" + effetPotion + "]";
 	}
-	//page 10 du diapo Tp1
-	//mac connecté test
-
-
-
+	
 
 	public static void main(String[] args) {
 
         Gaulois asterix = new Gaulois("Astérix", 8);
         Gaulois obelix = new Gaulois("Obelix", 8);
-
         Romain romain = new Romain("Romain", 8);
 
         System.out.println(asterix);
